@@ -18,3 +18,43 @@ Set 1 Questions:
 9) A rock does not move and it does not have any behavior. It just remains stationary.
 
 10) A bug and a rock can be in the same location, but a rock and a bug or a rock and a flower cannot be in the same location, because the rock acts as an obstacle, so the bug runs around it.
+
+
+Exercises:
+
+1)  0: North
+	45: Northeast
+	90: East
+	135: Southeast
+	180: South
+	225: Southwest
+	270: West
+	315: Northwest
+	360: North
+
+2) The bug can move in any direction and you can move it until there is an obstacle in its path. If you try to move the bug outside the grid, it will turn at 45 degree angles until it's facing the inside of the grid.
+
+3) To change the color of a bug, flower, or a rock, I used the setColor method.
+
+4) When you move a rock on top of a bug and then move the rock again, the bug disappears.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
