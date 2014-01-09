@@ -1,0 +1,15 @@
+Set 2 Questions:
+
+1) The instance variable sideLength indicates how far the bug will move horizontally and vertically in the box.
+
+2) The instance variable steps ensures that the bug keeps moving and acts as a counter for the bug.
+
+3) The turn method is called twice, because that way, the bug will move at a 90 degree angle and can create a box shaped path after it has run "sideLength" amount of steps.
+
+4) The BoxBug class can call the move method, because theh BoxBug class extends the Bug class which has the move method in it.
+
+5) After a BoxBug is constructed, the size of its square pattern will be the same until another actor is added to the grid. Other than that, it will continuously travel in a square path and sideLength will remain constant.
+
+6) The path that a BoxBug travels can change when the two actors may intersect. When this occurs, at least one of the bugs will change their path and make a box in another location.
+
+7) The value of steps will be zero when the bug is first placed on the zero and when the bug has to restart its path after almost intersecting with another bug.
