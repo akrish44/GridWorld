@@ -1,0 +1,20 @@
+Set 1 Questions:
+
+1) No, the bug does not always move to a new location, because if it is entirely surrounded by rocks, it will not be able to keep moving.
+
+2) The bug always moves in straight until a rock comes in its way and prevents it from moving any further. When this happens, the bug continues to move clockwise until its path is free.
+
+3) If the bug does not move, it will turn at a 45 degree angle until it is able to move again.
+4) When a bug moves, it leaves a flower behind in its path, which gets darker as the bug continues to move.
+
+5)When the bug is at the edge of the grid, it will turn at a 45 degree angle until it is able to run again. When the bug is facing some other direction, it will continue to move as long as its path is not blocked.
+
+6) When a bug has a rock located immediately in front of it, it will move at a 45 degree angle clockwise until it can move again.
+
+7) A flower does not move, because they mark where the bug has been. However, they change colors according to how many times a bug has passed that flower.
+
+8) The only behavior a flower has is changing colors based on how many times the bug passes it.
+
+9) A rock does not move and it does not have any behavior. It just remains stationary.
+
+10) A bug and a rock can be in the same location, but a rock and a bug or a rock and a flower cannot be in the same location, because the rock acts as an obstacle, so the bug runs around it.
