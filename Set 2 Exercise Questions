@@ -1,3 +1,5 @@
+1) The CircleBug actor does not make a square shape like the BoxBug actor does, because instead of turning at 90 degree angles, it turns at 45 degree angles.
+
 5) To add another BoxBug to the grid, you would have to add it to the main method in the BoxBugRunner class. This would be your new main method:
 
 You would then have to place that boxBug inside GridWorld by adding a location to it or giving it a random location.
