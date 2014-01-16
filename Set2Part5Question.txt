@@ -1,0 +1,16 @@
+5) To add another BoxBug to the grid, you would have to add it to the main method in the BoxBugRunner class. This would be your new main method:
+
+You would then have to place that boxBug inside GridWorld by adding a location to it or giving it a random location.
+
+public static void main(String[] args)
+    {
+        ActorWorld world = new ActorWorld();
+        BoxBug alice = new BoxBug(6);
+        alice.setColor(Color.ORANGE);
+        BoxBug bob = new BoxBug(3);
+        BoxBug steven = new BoxBug(4);
+        world.add(new Location(7, 8), alice);
+        world.add(new Location(5, 5), bob);
+        world.add(new Location(3, 8), steven);
+        world.show();
+    }
