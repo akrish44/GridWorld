@@ -1,0 +1,6 @@
+1. The act method inside the ChameleonCritter class calls four other methods and overrides the processActors and makeMove methods
+2. The makeMove method of ChameleonCritter calls super.makeMove, because the ChameleonCritter moves similarly to a regular actor, meaning that the makeMove method is the same as the makeMove method in the Actor class.
+3. Inside the makeMove method, you have to make it leave a flower every time it changes location. This would go under an if-statement in the method to make sure the critter is actually moving locations.
+4. ChameleonCritter does not override the getActors method, because it doesn't create any new behaviors within the class. It simply uses the same one that is in the Critter class.
+5. The Actor class has the getLocation method in it so all subclasses can inherit it.
+6. A critter can access its grid using the getGrid method that the subclasses inherit from the Actor class.
