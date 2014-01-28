@@ -1,3 +1,7 @@
 1. CrabCritter doesn't override the processActors method, because it treats other actors the same way, by "eating" them.
 2. The CrabCritter will only "eat" other actors that are in front of it or to the left or right side of it.
-3. Because the CrabCritter will use the array of directions in order to 
+3. Because the CrabCritter will use the array of directions in order to see which locations the CrabCritter can eat an Actor in.
+4. The getActors method will return (4,3), (4,4) and (4.5).
+5. A CrabCritter can only move one space forward, left, or right and a critter can move in all directions. They both randomly choose their next location with the getLocation method.
+6. It turns when the parameter equals the current location.
+7. The processActors method is inherited from the Critter class, so the CrabCritter won't "eat" any other critters, because they all use that processActors method.
