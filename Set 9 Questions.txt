@@ -1,0 +1,3 @@
+1. CrabCritter doesn't override the processActors method, because it treats other actors the same way, by "eating" them.
+2. The CrabCritter will only "eat" other actors that are in front of it or to the left or right side of it.
+3. Because the CrabCritter will use the array of directions in order to 
